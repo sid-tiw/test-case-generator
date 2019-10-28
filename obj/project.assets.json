@@ -8157,11 +8157,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\compu\\Desktop\\test-case-generator\\test-case-generator\\test-case-generator.csproj",
+      "projectUniqueName": "C:\\Users\\compu\\Desktop\\test-case-generator\\test-case-generator.csproj",
       "projectName": "test-case-generator",
-      "projectPath": "C:\\Users\\compu\\Desktop\\test-case-generator\\test-case-generator\\test-case-generator.csproj",
+      "projectPath": "C:\\Users\\compu\\Desktop\\test-case-generator\\test-case-generator.csproj",
       "packagesPath": "C:\\Users\\compu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\compu\\Desktop\\test-case-generator\\test-case-generator\\obj\\",
+      "outputPath": "C:\\Users\\compu\\Desktop\\test-case-generator\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

@@ -5,6 +5,8 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Storage;
+using Windows.Storage.Pickers;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -22,9 +24,44 @@ namespace test_case_generator
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        string path;
         public MainPage()
         {
             this.InitializeComponent();
+        }
+
+        private async void b1_Click(object sender, RoutedEventArgs e)
+        {
+            /*Button b2 = new Button();
+            MediaElement mediaElement = new MediaElement();
+            var synth = new Windows.Media.SpeechSynthesis.SpeechSynthesizer();
+            Windows.Media.SpeechSynthesis.SpeechSynthesisStream stream = await synth.SynthesizeTextToStreamAsync("You just clicked the button.");
+            mediaElement.SetSource(stream, stream.ContentType);
+            mediaElement.Play();*/
+            FileOpenPicker openPicker = new FileOpenPicker();
+            openPicker.ViewMode = PickerViewMode.List;
+            openPicker.SuggestedStartLocation = PickerLocationId.Desktop;
+            openPicker.FileTypeFilter.Add(".cpp");
+            openPicker.FileTypeFilter.Add(".c++");
+            openPicker.FileTypeFilter.Add(".cxx");
+            openPicker.FileTypeFilter.Add(".CPP");
+
+            StorageFile file = await openPicker.PickSingleFileAsync();
+            if (file != null)
+            {
+                // Application now has read/write access to the picked file
+                this.path = file.Path;
+                textBox.Text = path;
+            }
+            else
+            {
+                textBox.Text = "Operation cancelled.";
+            }
+        }
+
+        private void textBox_GotFocus(object sender, RoutedEventArgs e)
+        {
+            textBox.SelectAll();
         }
     }
 }
