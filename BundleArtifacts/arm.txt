@@ -1,0 +1,2 @@
+MainPackage=C:\Users\compu\Desktop\test-case-generator\bin\ARM\Release\test-case-generator_1.0.1.0_ARM.msix
+SymbolPackage=C:\Users\compu\Desktop\test-case-generator\obj\ARM\Release\Symbols\test-case-generator_1.0.1.0_ARM.appxsym

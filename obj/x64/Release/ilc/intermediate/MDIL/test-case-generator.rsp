@@ -11,6 +11,7 @@
 /subsystem windows
 /emitStackTraceMetadata
 /in "C:\Users\compu\Desktop\test-case-generator\obj\x64\Release\ilc\intermediate\ILTransformed\test-case-generator.ilexe"
+/in "C:\Users\compu\Desktop\test-case-generator\obj\x64\Release\ilc\intermediate\ILTransformed\System.Console.ildll"
 /in "C:\Users\compu\Desktop\test-case-generator\obj\x64\Release\ilc\intermediate\ILTransformed\System.Numerics.Vectors.ildll"
 /in "C:\Users\compu\Desktop\test-case-generator\obj\x64\Release\ilc\intermediate\ILTransformed\System.Private.DeveloperExperience.AppX.ildll"
 /in "C:\Users\compu\Desktop\test-case-generator\obj\x64\Release\ilc\intermediate\ILTransformed\System.Private.StackTraceGenerator.ildll"

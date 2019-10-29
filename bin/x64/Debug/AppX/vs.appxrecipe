@@ -9,7 +9,7 @@
     <SolutionConfiguration>Debug|x64</SolutionConfiguration>
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>b8d6e506-2bff-40bc-8cf7-78796f409746</PackageIdentityName>
-    <PackageIdentityPublisher>CN=compu</PackageIdentityPublisher>
+    <PackageIdentityPublisher>CN=Siddhartha Tiwari</PackageIdentityPublisher>
     <IntermediateOutputPath>C:\Users\compu\Desktop\test-case-generator\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
@@ -19,24 +19,24 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\compu\Desktop\test-case-generator\bin\x64\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>0375F1BCF2F0F9EC8C3B5165B73ADE7F855F01FD349200765CE98A0F8B6A077E</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>TestCaseGenerator_1.0.0.0_x64__j26g7grrddgqc</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>TestCaseGenerator_j26g7grrddgqc!App</RegisteredUserModeAppID>
+    <RegisteredManifestChecksum>B2757589D40BFDECBC031F0912A9895FF08903174C653AC1F2B484DF88EAD4D9</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>TestCaseGenerator_1.0.0.0_x64__mxcnf5brqc860</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>TestCaseGenerator_mxcnf5brqc860!App</RegisteredUserModeAppID>
     <RegisteredPackageID>TestCaseGenerator</RegisteredPackageID>
-    <RegisteredPackagePublisher>CN=compu</RegisteredPackagePublisher>
+    <RegisteredPackagePublisher>CN=Siddhartha Tiwari</RegisteredPackagePublisher>
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\compu\Desktop\test-case-generator\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-10-28T07:03:18.541</Modified>
+      <Modified>2019-10-29T04:42:17.890</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\compu\Desktop\test-case-generator\bin\x64\Debug\test-case-generator.exe">
       <PackagePath>entrypoint\test-case-generator.exe</PackagePath>
-      <Modified>2019-10-28T07:03:16.272</Modified>
+      <Modified>2019-10-29T04:42:15.988</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,55 +46,59 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T13:06:56.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\compu\Desktop\test-case-generator\App.xaml.cs">
+      <PackagePath>App.xaml.cs</PackagePath>
+      <Modified>2019-10-28T08:42:19.931</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\compu\Desktop\test-case-generator\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2019-10-28T04:41:50.891</Modified>
+      <Modified>2019-10-28T08:42:19.992</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\compu\Desktop\test-case-generator\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2019-10-05T11:46:01.329</Modified>
+      <Modified>2019-10-28T08:42:19.935</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\compu\Desktop\test-case-generator\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-10-05T11:46:01.329</Modified>
+      <Modified>2019-10-28T08:42:19.941</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\compu\Desktop\test-case-generator\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-10-05T11:46:01.329</Modified>
+      <Modified>2019-10-28T08:42:19.946</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\compu\Desktop\test-case-generator\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-10-05T11:46:01.329</Modified>
+      <Modified>2019-10-28T08:42:19.950</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\compu\Desktop\test-case-generator\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-10-05T11:46:01.329</Modified>
+      <Modified>2019-10-28T08:42:19.955</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\compu\Desktop\test-case-generator\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-10-05T11:46:01.329</Modified>
+      <Modified>2019-10-28T08:42:19.961</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\compu\Desktop\test-case-generator\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-10-05T11:46:01.329</Modified>
+      <Modified>2019-10-28T08:42:19.965</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\compu\Desktop\test-case-generator\bin\x64\Debug\test-case-generator.xr.xml">
       <PackagePath>test-case-generator.xr.xml</PackagePath>
-      <Modified>2019-10-28T07:03:15.655</Modified>
+      <Modified>2019-10-29T03:48:03.505</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\compu\Desktop\test-case-generator\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-10-28T07:03:15.683</Modified>
+      <Modified>2019-10-29T04:42:15.743</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\compu\Desktop\test-case-generator\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-10-28T07:03:15.683</Modified>
+      <Modified>2019-10-29T04:42:15.746</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -102,11 +106,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\compu\Desktop\test-case-generator\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-10-28T06:29:59.659</Modified>
+      <Modified>2019-10-29T04:42:16.249</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\compu\Desktop\test-case-generator\bin\x64\Debug\Core\test-case-generator.exe">
       <PackagePath>test-case-generator.exe</PackagePath>
-      <Modified>2019-10-28T07:03:18.527</Modified>
+      <Modified>2019-10-29T04:42:17.877</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

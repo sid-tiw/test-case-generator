@@ -2,6 +2,6 @@
 /Lib:"C:\Users\compu\Desktop\test-case-generator\obj\x64\Release\ilc\in"
 /Lib:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.native.compiler\2.2.7-rel-27913-00\tools\x64\ilc\lib\Private"
 /WinMD:"C:\Users\compu\Desktop\test-case-generator\obj\x64\Release\ilc\in\WinMetadata\Windows.winmd"
-/VSTelemetrySessionSettings:"{"IsOptedIn":true,"HostName":"Dev14","AppInsightsInstrumentationKey":"f144292e-e3b2-4011-ac90-20e5c03fbce5","AsimovInstrumentationKey":"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70","AppId":1001,"UserId":"25acdaad-5862-49e2-8520-128651b8aefa","Id":"13febf17-53e3-4565-8402-97d0d931f53e","ProcessStartTime":637078356071851476}"
+/VSTelemetrySessionSettings:"{"IsOptedIn":true,"HostName":"Dev14","AppInsightsInstrumentationKey":"f144292e-e3b2-4011-ac90-20e5c03fbce5","AsimovInstrumentationKey":"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70","AppId":1001,"UserId":"25acdaad-5862-49e2-8520-128651b8aefa","Id":"a543146c-f6ea-4ddd-9c08-b9c59f680fd4","ProcessStartTime":637079128358853026}"
 /RdXmlPath:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\2.2.7-rel-27913-00\tools\LibraryXML"
 /RunOnlyPreDR

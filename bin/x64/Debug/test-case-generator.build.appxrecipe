@@ -9,7 +9,7 @@
     <SolutionConfiguration>Debug|x64</SolutionConfiguration>
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>b8d6e506-2bff-40bc-8cf7-78796f409746</PackageIdentityName>
-    <PackageIdentityPublisher>CN=compu</PackageIdentityPublisher>
+    <PackageIdentityPublisher>CN=Siddhartha Tiwari</PackageIdentityPublisher>
     <IntermediateOutputPath>C:\Users\compu\Desktop\test-case-generator\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
@@ -33,6 +33,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\compu\Desktop\test-case-generator\App.xaml.cs">
+      <PackagePath>App.xaml.cs</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\compu\Desktop\test-case-generator\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>

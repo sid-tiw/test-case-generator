@@ -10,9 +10,12 @@
 
     <Grid>
         <Canvas VerticalAlignment="Top"/>
-        <Canvas>
-            <TextBox x:Name="textBox" Text="Paste the address of the file here or click browse button" TextWrapping="Wrap" FontSize="20" GotFocus="textBox_GotFocus" Height="50" Width="697" Canvas.Left="263" Canvas.Top="274"/>
-            <Button x:Name="browse" Click="b1_Click" Width="178" Height="50" Content="Browse" FontSize="30" FontFamily="Tahoma" FontStyle="Normal" FontWeight="Bold" FocusVisualPrimaryBrush="#FF222269" FocusVisualSecondaryBrush="Red" Foreground="#FF140E0C" BorderBrush="#FF16CB12" Background="#FF26ECF0" Canvas.Left="1132" Canvas.Top="274"/>
+        <Canvas Background="#FF458AFF">
+            <Button x:Name="browse" Click="b1_Click" Width="178" Height="50" Content="Browse" FontSize="20" FontFamily="Georgia" FontStyle="Normal" FontWeight="Normal" FocusVisualPrimaryBrush="#FFCFCFE5" FocusVisualSecondaryBrush="#FFEADBDB" Foreground="White" BorderBrush="White" Background="#FF458AFF" Canvas.Left="911" Canvas.Top="274"/>
+            <Button x:Name="previous" Content="Previous" Canvas.Left="87" Canvas.Top="387" Height="48" Width="168" Click="previous_Click" FontSize="20" FontFamily="Georgia" FontStyle="Normal" FontWeight="Normal" FocusVisualPrimaryBrush="#FFCFCFE5" FocusVisualSecondaryBrush="#FFEADBDB" Foreground="White" BorderBrush="White" Background="#FF458AFF"/>
+            <Button x:Name="next" Content="Next" Canvas.Left="355" Canvas.Top="382" Height="48" Width="168" Click="next_Click" FontSize="20" FontFamily="Georgia" FontStyle="Normal" FontWeight="Normal" FocusVisualPrimaryBrush="#FFCFCFE5" FocusVisualSecondaryBrush="#FFEADBDB" Foreground="White" BorderBrush="White" Background="#FF458AFF"/>
+            <Button x:Name="Finish" Content="Finish" Canvas.Left="664" Canvas.Top="377" Height="48" Width="168" Click="Finish_Click" FontSize="20" FontFamily="Georgia" FontStyle="Normal" FontWeight="Normal" FocusVisualPrimaryBrush="#FFCFCFE5" FocusVisualSecondaryBrush="#FFEADBDB" Foreground="White" BorderBrush="White" Background="#FF458AFF"/>
+            <TextBlock x:Name="textBox" Text="Enter the file address : " TextWrapping="Wrap" Height="43" Canvas.Left="87" Canvas.Top="274" Width="737" FocusVisualPrimaryBrush="White" Foreground="#FF0C0A0A" SelectionHighlightColor="#FF2AB71B" FontSize="20" IsTextSelectionEnabled="True"/>
 
         </Canvas>
 

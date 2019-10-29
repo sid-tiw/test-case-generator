@@ -433,6 +433,330 @@ namespace __Interop
 			// Return
 			return unsafe___value;
 		}
+
+		// Signature, GetStdHandle, [fwd] [return] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Console, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "GetStdHandle")]
+		public static global::System.IntPtr GetStdHandle(int nStdHandle)
+		{
+			// Setup
+			global::System.IntPtr unsafe___value;
+			// Marshalling
+			global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
+			// Call to native method
+			unsafe___value = global::__Interop.kernel32_dll_PInvokes.GetStdHandle(nStdHandle);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, WriteFile, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] byte___ptrunsigned char *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Console, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "WriteFile")]
+		public static int WriteFile(
+					global::System.IntPtr handle, 
+					byte* bytes, 
+					int numBytesToWrite, 
+					out int numBytesWritten, 
+					global::System.IntPtr mustBeZero)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			fixed (int* pinned_numBytesWritten = &(numBytesWritten))
+			{
+				global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
+				// Call to native method
+				unsafe___value = global::__Interop.kernel32_dll_PInvokes.WriteFile(
+									handle, 
+									((byte*)bytes), 
+									numBytesToWrite, 
+									pinned_numBytesWritten, 
+									mustBeZero
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+			}
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, GetFileType, [fwd] [return] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Console, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "GetFileType")]
+		public static uint GetFileType(global::System.IntPtr hFile)
+		{
+			// Setup
+			uint unsafe___value;
+			// Marshalling
+			global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
+			// Call to native method
+			unsafe___value = global::__Interop.kernel32_dll_PInvokes.GetFileType(hFile);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, GetConsoleOutputCP, [fwd] [return] [EETypeRva:0x000419B0] uint__unsigned int, 
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Console, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "GetConsoleOutputCP")]
+		public static uint GetConsoleOutputCP()
+		{
+			// Setup
+			uint unsafe___value;
+			// Marshalling
+			global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
+			// Call to native method
+			unsafe___value = global::__Interop.kernel32_dll_PInvokes.GetConsoleOutputCP();
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, ReadFile, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] byte___ptrunsigned char *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Console, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "ReadFile")]
+		public static int ReadFile(
+					global::System.IntPtr handle, 
+					byte* bytes, 
+					int numBytesToRead, 
+					out int numBytesRead, 
+					global::System.IntPtr mustBeZero)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			fixed (int* pinned_numBytesRead = &(numBytesRead))
+			{
+				global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
+				// Call to native method
+				unsafe___value = global::__Interop.kernel32_dll_PInvokes.ReadFile(
+									handle, 
+									((byte*)bytes), 
+									numBytesToRead, 
+									pinned_numBytesRead, 
+									mustBeZero
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+			}
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, ReadConsole, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] byte___ptrunsigned char *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Console, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "ReadConsole")]
+		public static bool ReadConsole(
+					global::System.IntPtr hConsoleInput, 
+					byte* lpBuffer, 
+					int nNumberOfCharsToRead, 
+					out int lpNumberOfCharsRead, 
+					global::System.IntPtr pInputControl)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			fixed (int* pinned_lpNumberOfCharsRead = &(lpNumberOfCharsRead))
+			{
+				global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
+				// Call to native method
+				unsafe___value = global::__Interop.kernel32_dll_PInvokes.ReadConsole(
+									hConsoleInput, 
+									((byte*)lpBuffer), 
+									nNumberOfCharsToRead, 
+									pinned_lpNumberOfCharsRead, 
+									pInputControl
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+			}
+			// Return
+			return unsafe___value != 0;
+		}
+
+		// Signature, WriteConsole, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] byte___ptrunsigned char *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Console, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "WriteConsole")]
+		public static bool WriteConsole(
+					global::System.IntPtr hConsoleOutput, 
+					byte* lpBuffer, 
+					int nNumberOfCharsToWrite, 
+					out int lpNumberOfCharsWritten, 
+					global::System.IntPtr lpReservedMustBeNull)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			fixed (int* pinned_lpNumberOfCharsWritten = &(lpNumberOfCharsWritten))
+			{
+				global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
+				// Call to native method
+				unsafe___value = global::__Interop.kernel32_dll_PInvokes.WriteConsole(
+									hConsoleOutput, 
+									((byte*)lpBuffer), 
+									nNumberOfCharsToWrite, 
+									pinned_lpNumberOfCharsWritten, 
+									lpReservedMustBeNull
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+			}
+			// Return
+			return unsafe___value != 0;
+		}
+
+		// Signature, GetConsoleCP, [fwd] [return] [EETypeRva:0x000419B0] uint__unsigned int, 
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Console, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "GetConsoleCP")]
+		public static uint GetConsoleCP()
+		{
+			// Setup
+			uint unsafe___value;
+			// Marshalling
+			global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
+			// Call to native method
+			unsafe___value = global::__Interop.kernel32_dll_PInvokes.GetConsoleCP();
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, WideCharToMultiByte, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000419B0] char___ptrwchar_t *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] byte___ptrunsigned char *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Console, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "WideCharToMultiByte")]
+		public static int WideCharToMultiByte(
+					uint CodePage, 
+					uint dwFlags, 
+					char* lpWideCharStr, 
+					int cchWideChar, 
+					byte* lpMultiByteStr, 
+					int cbMultiByte, 
+					global::System.IntPtr lpDefaultChar, 
+					global::System.IntPtr lpUsedDefaultChar)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.kernel32_dll_PInvokes.WideCharToMultiByte(
+								CodePage, 
+								dwFlags, 
+								((ushort*)lpWideCharStr), 
+								cchWideChar, 
+								((byte*)lpMultiByteStr), 
+								cbMultiByte, 
+								lpDefaultChar, 
+								lpUsedDefaultChar
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, MultiByteToWideChar, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000419B0] byte___ptrunsigned char *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] char___ptrwchar_t *, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Console, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "MultiByteToWideChar")]
+		public static int MultiByteToWideChar(
+					uint CodePage, 
+					uint dwFlags, 
+					byte* lpMultiByteStr, 
+					int cbMultiByte, 
+					char* lpWideCharStr, 
+					int cchWideChar)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.kernel32_dll_PInvokes.MultiByteToWideChar(
+								CodePage, 
+								dwFlags, 
+								((byte*)lpMultiByteStr), 
+								cbMultiByte, 
+								((ushort*)lpWideCharStr), 
+								cchWideChar
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, GetCPInfoExW__0, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000419B0] __Interop_Kernel32_CPINFOEXW__System_Console___ptr__Interop_Kernel32_CPINFOEXW__System_Console *, 
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Console, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "GetCPInfoExW")]
+		public static int GetCPInfoExW__0(
+					uint CodePage, 
+					uint dwFlags, 
+					global::_.Interop_Kernel32_CPINFOEXW__System_Console* lpCPInfoEx)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.kernel32_dll_PInvokes.GetCPInfoExW__0(
+								CodePage, 
+								dwFlags, 
+								((global::_.Interop_Kernel32_CPINFOEXW__System_Console*)lpCPInfoEx)
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, GetConsoleMode, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, 
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Console, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "GetConsoleMode")]
+		public static bool GetConsoleMode(
+					global::System.IntPtr handle, 
+					out int mode)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			fixed (int* pinned_mode = &(mode))
+			{
+				global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
+				// Call to native method
+				unsafe___value = global::__Interop.kernel32_dll_PInvokes.GetConsoleMode(
+									handle, 
+									pinned_mode
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+			}
+			// Return
+			return unsafe___value != 0;
+		}
+
+		// Signature, FormatMessage, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] char___ptrwchar_t *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00042A40] rg_System_IntPtr____w64 int *, 
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Console, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "FormatMessage")]
+		public static int FormatMessage(
+					int dwFlags, 
+					global::System.IntPtr lpSource, 
+					uint dwMessageId, 
+					int dwLanguageId, 
+					char* lpBuffer, 
+					int nSize, 
+					global::System.IntPtr[] arguments)
+		{
+			// Setup
+			global::System.IntPtr* unsafe_arguments;
+			int unsafe___value;
+			// Marshalling
+			fixed (global::System.IntPtr* pinned_arguments = ((arguments != null 
+						&& arguments.Length == 0) ? new global::System.IntPtr[1] : arguments))
+			{
+				unsafe_arguments = (global::System.IntPtr*)pinned_arguments;
+				global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
+				// Call to native method
+				unsafe___value = global::__Interop.kernel32_dll_PInvokes.FormatMessage(
+									dwFlags, 
+									lpSource, 
+									dwMessageId, 
+									dwLanguageId, 
+									((ushort*)lpBuffer), 
+									nSize, 
+									unsafe_arguments
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+			}
+			// Return
+			return unsafe___value;
+		}
 	}
 
 	/// <summary>
@@ -632,6 +956,91 @@ namespace __Interop
 					uint CodePage, 
 					uint dwFlags, 
 					global::_.Interop_Kernel32_CPINFOEXW__System_Text_Encoding_CodePages* lpCPInfoEx);
+
+		[global::System.Runtime.InteropServices.DllImport("kernel32.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static global::System.IntPtr GetStdHandle(int nStdHandle);
+
+		[global::System.Runtime.InteropServices.DllImport("kernel32.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static int WriteFile(
+					global::System.IntPtr handle, 
+					byte* bytes, 
+					int numBytesToWrite, 
+					int* numBytesWritten, 
+					global::System.IntPtr mustBeZero);
+
+		[global::System.Runtime.InteropServices.DllImport("kernel32.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static uint GetFileType(global::System.IntPtr hFile);
+
+		[global::System.Runtime.InteropServices.DllImport("kernel32.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static uint GetConsoleOutputCP();
+
+		[global::System.Runtime.InteropServices.DllImport("kernel32.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static int ReadFile(
+					global::System.IntPtr handle, 
+					byte* bytes, 
+					int numBytesToRead, 
+					int* numBytesRead, 
+					global::System.IntPtr mustBeZero);
+
+		[global::System.Runtime.InteropServices.DllImport("kernel32.dll", EntryPoint="ReadConsoleW", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static int ReadConsole(
+					global::System.IntPtr hConsoleInput, 
+					byte* lpBuffer, 
+					int nNumberOfCharsToRead, 
+					int* lpNumberOfCharsRead, 
+					global::System.IntPtr pInputControl);
+
+		[global::System.Runtime.InteropServices.DllImport("kernel32.dll", EntryPoint="WriteConsoleW", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static int WriteConsole(
+					global::System.IntPtr hConsoleOutput, 
+					byte* lpBuffer, 
+					int nNumberOfCharsToWrite, 
+					int* lpNumberOfCharsWritten, 
+					global::System.IntPtr lpReservedMustBeNull);
+
+		[global::System.Runtime.InteropServices.DllImport("kernel32.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static uint GetConsoleCP();
+
+		[global::System.Runtime.InteropServices.DllImport("kernel32.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static int WideCharToMultiByte(
+					uint CodePage, 
+					uint dwFlags, 
+					ushort* lpWideCharStr, 
+					int cchWideChar, 
+					byte* lpMultiByteStr, 
+					int cbMultiByte, 
+					global::System.IntPtr lpDefaultChar, 
+					global::System.IntPtr lpUsedDefaultChar);
+
+		[global::System.Runtime.InteropServices.DllImport("kernel32.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static int MultiByteToWideChar(
+					uint CodePage, 
+					uint dwFlags, 
+					byte* lpMultiByteStr, 
+					int cbMultiByte, 
+					ushort* lpWideCharStr, 
+					int cchWideChar);
+
+		[global::System.Runtime.InteropServices.DllImport("kernel32.dll", EntryPoint="GetCPInfoExW", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static int GetCPInfoExW__0(
+					uint CodePage, 
+					uint dwFlags, 
+					global::_.Interop_Kernel32_CPINFOEXW__System_Console* lpCPInfoEx);
+
+		[global::System.Runtime.InteropServices.DllImport("kernel32.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static int GetConsoleMode(
+					global::System.IntPtr handle, 
+					int* mode);
+
+		[global::System.Runtime.InteropServices.DllImport("kernel32.dll", EntryPoint="FormatMessageW", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static int FormatMessage(
+					int dwFlags, 
+					global::System.IntPtr lpSource, 
+					uint dwMessageId, 
+					int dwLanguageId, 
+					ushort* lpBuffer, 
+					int nSize, 
+					global::System.IntPtr* arguments);
 	}
 
 	public unsafe static partial class api_ms_win_core_com_l1_1_0_dll_PInvokes

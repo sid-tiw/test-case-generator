@@ -13,6 +13,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Media3D;
 using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
@@ -50,8 +51,7 @@ namespace test_case_generator
             if (file != null)
             {
                 // Application now has read/write access to the picked file
-                this.path = file.Path;
-                textBox.Text = path;
+                textBox.Text = file.Path;
             }
             else
             {
@@ -62,6 +62,32 @@ namespace test_case_generator
         private void textBox_GotFocus(object sender, RoutedEventArgs e)
         {
             textBox.SelectAll();
+        }
+
+        private void previous_Click(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void next_Click(object sender, RoutedEventArgs e)
+        {
+            ControlTemplate t = next.Template;
+            Button bn = new Button();
+            bn.Template = t;
+            var str = bn.ActualTheme.ToString();
+            Console.WriteLine(str);
+            /*path = textBox.Text;
+            string str = "";
+            var n = path.Length;
+            for (int i = n - 4; i < n; i++)
+                str = str + path[i];
+            if ((str != ".cpp") && (str != ".cxx") && (str != ".CPP") && (str != ".c++"))
+                textBox.Text = "You didn't entered a valid address";*/
+        }
+
+        private void Finish_Click(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
         }
     }
 }

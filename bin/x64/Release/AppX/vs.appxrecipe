@@ -30,43 +30,43 @@
     <AppXManifest Include="C:\Users\compu\Desktop\test-case-generator\bin\x64\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-10-28T08:36:36.249</Modified>
+      <Modified>2019-10-29T03:15:54.755</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\compu\Desktop\test-case-generator\bin\x64\Release\ilc\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2019-10-05T11:46:01.329</Modified>
+      <Modified>2019-10-28T08:42:19.935</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\compu\Desktop\test-case-generator\bin\x64\Release\ilc\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-10-05T11:46:01.329</Modified>
+      <Modified>2019-10-28T08:42:19.941</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\compu\Desktop\test-case-generator\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-10-05T11:46:01.329</Modified>
+      <Modified>2019-10-28T08:42:19.946</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\compu\Desktop\test-case-generator\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-10-05T11:46:01.329</Modified>
+      <Modified>2019-10-28T08:42:19.950</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\compu\Desktop\test-case-generator\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-10-05T11:46:01.329</Modified>
+      <Modified>2019-10-28T08:42:19.955</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\compu\Desktop\test-case-generator\bin\x64\Release\ilc\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-10-05T11:46:01.329</Modified>
+      <Modified>2019-10-28T08:42:19.961</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\compu\Desktop\test-case-generator\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-10-05T11:46:01.329</Modified>
+      <Modified>2019-10-28T08:42:19.965</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\compu\Desktop\test-case-generator\bin\x64\Release\ilc\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -74,19 +74,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\compu\Desktop\test-case-generator\bin\x64\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-10-28T08:36:26.242</Modified>
+      <Modified>2019-10-29T03:15:38.492</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\compu\Desktop\test-case-generator\bin\x64\Release\ilc\test-case-generator.dll">
       <PackagePath>test-case-generator.dll</PackagePath>
-      <Modified>2019-10-28T08:36:36.115</Modified>
+      <Modified>2019-10-29T03:15:54.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\compu\Desktop\test-case-generator\bin\x64\Release\ilc\test-case-generator.exe">
       <PackagePath>test-case-generator.exe</PackagePath>
-      <Modified>2019-10-28T08:36:36.233</Modified>
+      <Modified>2019-10-29T03:15:54.715</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\compu\Desktop\test-case-generator\bin\x64\Release\ilc\test-case-generator.pdb">
       <PackagePath>test-case-generator.pdb</PackagePath>
-      <Modified>2019-10-28T08:36:36.228</Modified>
+      <Modified>2019-10-29T03:15:54.680</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

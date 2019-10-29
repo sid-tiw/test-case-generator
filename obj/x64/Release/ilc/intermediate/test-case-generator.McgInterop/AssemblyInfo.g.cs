@@ -13,6 +13,7 @@ using global::Windows.Foundation.Collections;
 [assembly: global::System.Runtime.CompilerServices.IgnoresAccessChecksTo("System.Private.WinRTInterop.CoreLib")]
 [assembly: global::System.Runtime.CompilerServices.IgnoresAccessChecksTo("System.Runtime.WindowsRuntime")]
 [assembly: global::System.Runtime.CompilerServices.IgnoresAccessChecksTo("System.Text.Encoding.CodePages")]
+[assembly: global::System.Runtime.CompilerServices.IgnoresAccessChecksTo("System.Console")]
 [assembly: global::System.Diagnostics.DebuggerGuidedStepThrough]
 [assembly: global::System.Runtime.CompilerServices.CompilerGenerated]
 

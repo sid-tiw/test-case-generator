@@ -9,7 +9,7 @@
     <SolutionConfiguration>Release|x64</SolutionConfiguration>
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>b8d6e506-2bff-40bc-8cf7-78796f409746</PackageIdentityName>
-    <PackageIdentityPublisher>CN=compu</PackageIdentityPublisher>
+    <PackageIdentityPublisher>CN=Siddhartha Tiwari</PackageIdentityPublisher>
     <IntermediateOutputPath>C:\Users\compu\Desktop\test-case-generator\obj\x64\Release\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
@@ -25,6 +25,9 @@
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\compu\Desktop\test-case-generator\bin\x64\Release\ilc\App.xaml.cs">
+      <PackagePath>App.xaml.cs</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\compu\Desktop\test-case-generator\bin\x64\Release\ilc\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>

@@ -482,3 +482,10 @@ C:\Users\compu\Desktop\test-case-generator\obj\x64\Release\ilc\intermediate\test
 C:\Users\compu\Desktop\test-case-generator\obj\x64\Release\ilc\intermediate\test-case-generator.McgInterop\PInvoke.g.cs
 C:\Users\compu\Desktop\test-case-generator\obj\x64\Release\ilc\intermediate\test-case-generator.McgInterop\SafeTypes.g.cs
 C:\Users\compu\Desktop\test-case-generator\obj\x64\Release\ilc\intermediate\test-case-generator.McgInterop\SharedStubs.g.cs
+C:\Users\compu\Desktop\test-case-generator\bin\x64\Release\App.xaml.cs
+C:\Users\compu\Desktop\test-case-generator\bin\x64\Release\ilc\App.xaml.cs
+C:\Users\compu\Desktop\test-case-generator\obj\x64\Release\ilc\in\App.xaml.cs
+C:\Users\compu\Desktop\test-case-generator\obj\x64\Release\ilc\intermediate\ILTransformed\System.Console.ildll
+C:\Users\compu\Desktop\test-case-generator\obj\x64\Release\ilc\intermediate\ILTransformed\System.Console.ilpdb
+C:\Users\compu\Desktop\test-case-generator\obj\x64\Release\ilc\intermediate\Resources\System.Console.0.rsrc
+C:\Users\compu\Desktop\test-case-generator\obj\x64\Release\ilc\intermediate\Resources\System.Console.index.txt

@@ -42,3 +42,4 @@ C:\Users\compu\Desktop\test-case-generator\obj\x64\Debug\MultipleQualifiersPerDi
 C:\Users\compu\Desktop\test-case-generator\obj\x64\Debug\ProjectArchitectures.txt
 C:\Users\compu\Desktop\test-case-generator\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885112160000000.json
 C:\Users\compu\Desktop\test-case-generator\obj\x64\Debug\test-case-generator.csprojAssemblyReference.cache
+C:\Users\compu\Desktop\test-case-generator\bin\x64\Debug\App.xaml.cs
