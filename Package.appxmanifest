@@ -48,5 +48,6 @@
     <Capability Name="internetClient" />
     <iot:Capability Name="systemManagement"/>
     <uap:Capability Name="userAccountInformation"/>
+    <uap:Capability Name="musicLibrary"/>
   </Capabilities>
 </Package>

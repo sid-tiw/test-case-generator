@@ -43,3 +43,10 @@ C:\Users\compu\Desktop\test-case-generator\obj\x64\Debug\ProjectArchitectures.tx
 C:\Users\compu\Desktop\test-case-generator\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885112160000000.json
 C:\Users\compu\Desktop\test-case-generator\obj\x64\Debug\test-case-generator.csprojAssemblyReference.cache
 C:\Users\compu\Desktop\test-case-generator\bin\x64\Debug\App.xaml.cs
+C:\Users\compu\Desktop\test-case-generator\obj\x64\Debug\newPage.g.i.cs
+C:\Users\compu\Desktop\test-case-generator\obj\x64\Debug\newPage.g.cs
+C:\Users\compu\Desktop\test-case-generator\obj\x64\Debug\newPage.xaml
+C:\Users\compu\Desktop\test-case-generator\obj\x64\Debug\newPage.xbf
+C:\Users\compu\Desktop\test-case-generator\bin\x64\Debug\newPage.xbf
+C:\Users\compu\Desktop\test-case-generator\bin\x64\Debug\System.Drawing.Common.dll
+C:\Users\compu\Desktop\test-case-generator\obj\x64\Debug\FxResources.System.Drawing.Common.SR.resw
